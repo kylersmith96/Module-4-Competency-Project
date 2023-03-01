@@ -1,0 +1,144 @@
+body {
+	background-color: #eeeeee;
+	color: #2ae0c2;
+	font-family: 'Times New Roman', Times, serif;
+}
+ul {
+	list-style-image: url(pew.gif);
+}
+#wrapper {
+	background-color: #5139d6;
+	height: auto;
+	width: auto;
+	min-width: 960px;
+	max-width: 3000px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid;
+	border-style: solid;
+	border-color: #8f12c0;
+	background-image: linear-gradient(to bottom, #761cca, #19a7ee);
+}
+* {
+	box-sizing: border-box;
+}
+main {
+	padding-top: 2px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	display: block;
+	background: #000000;
+	margin-left: 190px;
+	overflow: auto;
+}
+h1 {
+	margin-bottom: 0;
+	font-family: Georgia, 'Times New Roman', serif;
+	margin-top: 0;
+	font-size: 3em;
+	letter-spacing: 0.25em;
+}
+h2 {
+	color: #2ae0c2;
+	font-family: Georgia, 'Times New Roman', serif;
+	text-shadow: 1px 1px 1px #cccccc;
+}
+h3 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #2ae0c2;
+}
+title {
+	color: #2ae0c2;
+}
+nav {
+	font-weight: bold;
+	padding: 1.5em;
+	font-size: 120%;
+	float: left;
+	width: 160px;
+}
+nav a:link {
+	color:#2ae0c2
+}
+nav a:visited {
+	color: #eeeeee;
+}
+nav a:hover {
+	color:#e3e700
+}
+footer {
+	text-align: center;
+}
+section { 
+	float: left; 
+    width: 100%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+#contact {
+	font-size: 90%;
+	text-align: left;
+}
+nav ul {
+	padding-left: 0px;
+	margin: 0px;
+	font-size: 1.2em;
+	list-style-type: none;
+}
+table {
+	border: 2px solid #19a7ee;
+	border-collapse: collapse;
+}
+td {
+	padding: 0.5em;
+	border: 2px solid #8f12c0;
+	text-align: center;
+}
+th {
+	padding: 0.5em;
+	border: 2px solid #8f12c0;
+}
+.text {
+	text-align: left;
+}
+tr:nth-of-type(odd) {
+	background-color: #4b4b4b;
+}
+#special { 
+	clear: both;
+}
+
+form {
+	font-family: Arial, sans-serif;
+	width: 500px; 
+	padding: 10px; 
+}
+label {
+	float: left;
+	display: block;
+	width: 140px; 
+	padding-right: 5px; 
+	text-align: right;
+}
+
+input {
+	display: block; 
+	margin-bottom: 20px;
+}
+textarea {
+	display: block; 
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
+header a:link {
+	color: #FFFFFF;
+}
+header a:visited {
+	color: #FFFFFF;
+}
+header a:hover {
+	color: #e3e700
+}
